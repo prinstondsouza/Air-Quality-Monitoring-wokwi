@@ -10,7 +10,7 @@ const char* ssid = "Wokwi-GUEST";
 const char* password = " ";
 
 // ThingSpeak API
-const char* thingspeak_api_key = "";
+const char* thingspeak_api_key = " ";
 const char* thingspeak_url = "";
 
 // Telegram Bot
@@ -126,4 +126,5 @@ void sendTelegramAlert(float aqi, String status) {
     }
     http.end();
 }
+
 
