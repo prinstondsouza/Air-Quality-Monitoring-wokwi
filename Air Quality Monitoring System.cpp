@@ -11,11 +11,11 @@ const char* password = " ";
 
 // ThingSpeak API
 const char* thingspeak_api_key = " ";
-const char* thingspeak_url = "";
+const char* thingspeak_url = " ";
 
 // Telegram Bot
-const char* bot_token = "";
-const char* chat_id = "";
+const char* bot_token = " ";
+const char* chat_id = " ";
 
 // MQ2 Sensor Pin
 #define MQ2_PIN 34
@@ -126,5 +126,6 @@ void sendTelegramAlert(float aqi, String status) {
     }
     http.end();
 }
+
 
 
